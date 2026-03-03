@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoyThai Kitchen | Authentic Thai Flavors in McKinney</title>
+  <meta name="description"
+    content="JoyThai Kitchen offers authentic Thai cuisine, fresh ingredients, and a cozy atmosphere in McKinney, TX. Dine-in, takeout, and delivery available.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "JoyThai Kitchen",
+      "image": "images/hero_thai_food_1772564618042.png",
+      "@id": "http://www.joythaikitchen.com",
+      "url": "http://www.joythaikitchen.com",
+      "telephone": "(469) 481-6283",
+      "priceRange": "$10-$20",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "260 N Coit Rd #110",
+        "addressLocality": "McKinney",
+        "addressRegion": "TX",
+        "postalCode": "75071",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.2084,
+        "longitude": -96.7118
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "11:00",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "16:00",
+          "closes": "21:00"
+        }
+      ],
+      "servesCuisine": "Thai",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "reviewCount": "266"
+      }
+    }
+    </script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">JoyThai <span>Kitchen</span></a>
+      <nav id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#popular">Popular Dishes</a></li>
+          <li><a href="#menu">Full Menu</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Location</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <a href="tel:4694816283" class="btn btn-outline btn-sm cta-call"><i class="fas fa-phone"></i> (469) 481-6283</a>
+        <a href="#order" class="btn btn-primary btn-sm"><i class="fas fa-shopping-bag"></i> Order Online</a>
+        <button class="cart-toggle-btn" aria-label="Toggle cart" id="cart-toggle-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero" style="background-image: url('images/hero_thai_food_1772564618042.png');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="reveal-up">Authentic Thai Flavors <br>in McKinney</h1>
+      <p class="reveal-up delay-1">Experience the warmth of Thailand right here in Texas. Fresh ingredients, traditional
+        recipes, and a cozy atmosphere.</p>
+      <div class="hero-buttons reveal-up delay-2">
+        <a href="#order" class="btn btn-primary btn-lg">Order Online</a>
+        <a href="#menu" class="btn btn-outline btn-lg">View Menu</a>
+      </div>
+      <div class="hero-badges reveal-up delay-3">
+        <span class="badge"><i class="fas fa-star"></i> 4.3 Stars (266 Reviews)</span>
+        <span class="badge"><i class="fas fa-rainbow"></i> LGBTQ+ Friendly</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container about-container">
+      <div class="about-text reveal-up">
+        <h2 class="section-title">Our Story</h2>
+        <h3 class="section-subtitle">A local favorite with a cozy vibe</h3>
+        <p>At JoyThai Kitchen, we believe that great food brings people together. Located in the heart of McKinney, our
+          kitchen serves up authentic Thai recipes passed down through generations.</p>
+        <p>We pride ourselves on using only the freshest ingredients—crisp vegetables, vibrant herbs, and bold spices
+          imported directly from Thailand. Whether you're dining in our warm, wood-toned dining room, taking out, or
+          getting no-contact delivery, we promise an unforgettable culinary journey.</p>
+        <div class="about-features mt-4">
+          <div class="feature-item"><i class="fas fa-leaf"></i> Fresh Ingredients</div>
+          <div class="feature-item"><i class="fas fa-fire"></i> Authentic Wok</div>
+          <div class="feature-item"><i class="fas fa-heart"></i> Family Owned</div>
+        </div>
+      </div>
+      <div class="about-image reveal-up delay-1">
+        <div class="image-wrapper">
+          <img src="images/pad_thai_1772564679411.png" alt="JoyThai Kitchen Authentic Food"
+            class="rounded-image shadow-lg">
+          <div class="experience-badge">
+            <span class="years">Dine-In</span>
+            <span class="text">& Takeout<br>Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Dishes Section -->
+  <section id="popular" class="popular section bg-section">
+    <div class="container">
+      <h2 class="section-title reveal-up">Popular Dishes</h2>
+      <h3 class="section-subtitle reveal-up delay-1">Favorites chosen by our guests</h3>
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <div class="card reveal-up delay-1">
+          <div class="card-img-wrapper">
+            <img src="images/drunken_noodles_1772564666678.png" alt="Drunken Noodles" class="card-img" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h4>Drunken Noodles <i class="fas fa-pepper-hot text-red"></i></h4>
+              <span class="price">$15.00</span>
+            </div>
+            <p>Spicy flat rice noodles stir-fried with fresh basil, bell peppers, onions, and rich chili garlic sauce.
+            </p>
+            <button class="btn btn-outline-primary btn-sm btn-cart"><i class="fas fa-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card reveal-up delay-2">
+          <div class="card-img-wrapper">
+            <img src="images/basil_fried_rice_1772564739794.png" alt="Basil Fried Rice" class="card-img"
+              loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h4>Basil Fried Rice</h4>
+              <span class="price">$14.00</span>
+            </div>
+            <p>Traditional Thai fried rice with basil, chili, garlic, and topped with a crispy sunny-side-up egg.</p>
+            <button class="btn btn-outline-primary btn-sm btn-cart"><i class="fas fa-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card reveal-up delay-3">
+          <div class="card-img-wrapper">
+            <img src="images/pad_thai_1772564679411.png" alt="Pad Thai Combo" class="card-img" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h4>Pad Thai Combo</h4>
+              <span class="price">$18.00</span>
+            </div>
+            <p>Our signature rice noodles with chicken, beef, and shrimp. Tossed with egg, peanuts, and tamarind sauce.
+            </p>
+            <button class="btn btn-outline-primary btn-sm btn-cart"><i class="fas fa-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card reveal-up delay-1">
+          <div class="card-img-wrapper">
+            <img src="images/chicken_katsu_1772564757757.png" alt="Chicken Katsu" class="card-img" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h4>Chicken Katsu</h4>
+              <span class="price">$14.50</span>
+            </div>
+            <p>Crispy breaded chicken cutlet served with steamed rice, fresh cabbage salad, and savory katsu sauce.</p>
+            <button class="btn btn-outline-primary btn-sm btn-cart"><i class="fas fa-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card reveal-up delay-2">
+          <div class="card-img-wrapper">
+            <img src="images/mango_sticky_rice_1772564804857.png" alt="Mango Sticky Rice" class="card-img"
+              loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h4>Mango Sticky Rice</h4>
+              <span class="price">$8.00</span>
+            </div>
+            <p>Warm sweet glutinous rice topped with fresh ripe mango slices and drizzled with rich coconut milk.</p>
+            <button class="btn btn-outline-primary btn-sm btn-cart"><i class="fas fa-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Menu Section -->
+  <section id="menu" class="menu section">
+    <div class="container">
+      <h2 class="section-title reveal-up">Full Menu</h2>
+      <h3 class="section-subtitle reveal-up delay-1">Explore our authentic dishes</h3>
+
+      <div class="menu-filters reveal-up delay-2">
+        <button class="menu-btn active" data-filter="all">All</button>
+        <button class="menu-btn" data-filter="appetizers">Appetizers</button>
+        <button class="menu-btn" data-filter="noodles">Noodles</button>
+        <button class="menu-btn" data-filter="curries">Curries</button>
+      </div>
+
+      <div class="menu-grid reveal-up delay-3">
+        <!-- Group Appetizers -->
+        <div class="menu-category appetizers">
+          <h3 class="category-title">Appetizers</h3>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Spring Rolls (4pcs)</h5>
+                <span class="mi-price">$6.00</span>
+              </div>
+              <p class="mi-desc">Crispy rolls filled with veggies and glass noodles, served with sweet plum sauce.</p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Chicken Satay (4pcs)</h5>
+                <span class="mi-price">$8.00</span>
+              </div>
+              <p class="mi-desc">Grilled chicken skewers served with peanut sauce and cucumber relish.</p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+        </div>
+
+        <!-- Group Noodles -->
+        <div class="menu-category noodles">
+          <h3 class="category-title">Noodles & Rice</h3>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Pad See Ew</h5>
+                <span class="mi-price">$14.00</span>
+              </div>
+              <p class="mi-desc">Stir-fried flat rice noodles with egg, broccoli, and sweet soy sauce.</p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Pineapple Fried Rice</h5>
+                <span class="mi-price">$15.00</span>
+              </div>
+              <p class="mi-desc">Exotic fried rice with pineapple chunks, cashews, raisins, onions, and curry powder.
+              </p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+        </div>
+
+        <!-- Group Curries -->
+        <div class="menu-category curries">
+          <h3 class="category-title">Curries</h3>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Green Curry <i class="fas fa-pepper-hot text-red"></i><i class="fas fa-pepper-hot text-red"></i>
+                </h5>
+                <span class="mi-price">$15.00</span>
+              </div>
+              <p class="mi-desc">Spicy green curry with coconut milk, bamboo shoots, bell peppers, and basil leaves.</p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+          <div class="menu-item">
+            <div class="mi-details">
+              <div class="mi-header">
+                <h5>Panang Curry <i class="fas fa-pepper-hot text-red"></i></h5>
+                <span class="mi-price">$15.50</span>
+              </div>
+              <p class="mi-desc">Rich and creamy red curry with snow peas, bell peppers, and crushed peanuts.</p>
+            </div>
+            <button class="btn btn-sm btn-outline-primary btn-cart"><i class="fas fa-plus"></i> Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 reveal-up">
+        <a href="#" class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="reviews section bg-section">
+    <div class="container">
+      <h2 class="section-title reveal-up">What Our Customers Say</h2>
+      <h3 class="section-subtitle reveal-up delay-1">Real reviews from Google</h3>
+
+      <div class="reviews-wrapper reveal-up delay-2">
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Absolutely the best Thai food in McKinney! The Drunken Noodles are perfectly spicy,
+            and the staff is so welcoming. The new dining room looks beautiful too."</p>
+          <div class="reviewer">
+            <div class="avatar">SJ</div>
+            <div class="r-info">
+              <strong>Sarah Jenkins</strong>
+              <span>Local Guide</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="review-text">"Got takeout for dinner and it was ready super fast. The Pad Thai combo had huge shrimp
+            and great flavor. Love that they have no-contact delivery."</p>
+          <div class="reviewer">
+            <div class="avatar">MR</div>
+            <div class="r-info">
+              <strong>Michael R.</strong>
+              <span>2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+              class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-text">"Such a cozy vibe for a date night. Everything was fresh. They are also LGBTQ+ friendly
+            and made us feel right at home. We'll be back for the Mango Sticky Rice!"</p>
+          <div class="reviewer">
+            <div class="avatar">AL</div>
+            <div class="r-info">
+              <strong>Alex & Leah</strong>
+              <span>1 month ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Online Section -->
+  <section id="order" class="order section">
+    <div class="container">
+      <div class="order-box reveal-up">
+        <h2>Ready to Order?</h2>
+        <p>Choose your preferred way to enjoy JoyThai Kitchen today.</p>
+
+        <div class="order-toggle">
+          <button class="toggle-btn active" id="btn-pickup">Pickup</button>
+          <button class="toggle-btn" id="btn-delivery">Delivery</button>
+        </div>
+
+        <div class="order-action mt-4">
+          <p class="order-meta" id="order-meta-text"><i class="fas fa-clock"></i> Ready in 15-20 minutes</p>
+          <button class="btn btn-secondary btn-lg btn-block mt-3 w-100" style="max-width: 300px;">Start Order
+            Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2 class="section-title reveal-up">Visit Us</h2>
+      <h3 class="section-subtitle reveal-up delay-1">We can't wait to serve you</h3>
+
+      <div class="contact-grid reveal-up delay-2">
+        <div class="contact-info">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Address</h4>
+            <p>260 N Coit Rd #110<br>McKinney, TX 75071</p>
+            <a href="https://maps.google.com" target="_blank" class="text-primary mt-2 d-inline-block">Get
+              Directions</a>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-phone"></i>
+            <h4>Contact</h4>
+            <p><a href="tel:4694816283">(469) 481-6283</a></p>
+            <div class="social-links mt-3">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-yelp"></i></a>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <h4>Hours</h4>
+            <table class="hours-table">
+              <tr>
+                <td>Mon - Sun</td>
+                <td>11:00 AM - 3:00 PM</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><em class="text-muted">Closed 3 PM - 4 PM</em></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>4:00 PM - 9:00 PM</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="map-container rounded-image shadow-md">
+          <!-- Map iframe placeholder -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3337.818318858548!2d-96.71421678480336!3d33.20844788084439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c143924f0c609%3A0x6bba3bc3a1c6e1aa!2s260%20N%20Coit%20Rd%20%23110%2C%20McKinney%2C%20TX%2075071!5e0!3m2!1sen!2sus!4v1689234821033!5m2!1sen!2sus"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="logo">JoyThai <span>Kitchen</span></div>
+        <p class="mt-3 text-muted">Authentic Thai cuisine in the heart of McKinney, TX. Experience the rich culinary
+          heritage of Thailand with every bite.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order Online</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 JoyThai Kitchen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <div class="cart-sidebar" id="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Order</h3>
+      <button class="close-cart" id="close-cart"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <div class="empty-cart-msg">Your cart is empty</div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <span id="cart-total-price">$0.00</span>
+      </div>
+      <button class="btn btn-primary btn-lg w-100 mt-3" id="checkout-btn" disabled>Checkout</button>
+    </div>
+  </div>
+
+  <!-- Payment Modal -->
+  <div class="payment-modal-overlay" id="payment-modal-overlay"></div>
+  <div class="payment-modal" id="payment-modal">
+    <div class="payment-modal-header">
+      <h3>Secure Payment</h3>
+      <button class="close-payment" id="close-payment"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="payment-modal-body">
+      <p>Amount due: <b id="payment-total-amount">$0.00</b></p>
+      <form id="payment-form">
+        <div class="form-group">
+          <label for="card-name">Name on Card</label>
+          <input type="text" id="card-name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="card-exp">Expiry</label>
+            <input type="text" id="card-exp" placeholder="MM/YY" required>
+          </div>
+          <div class="form-group">
+            <label for="card-cvc">CVC</label>
+            <input type="text" id="card-cvc" placeholder="CVC" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mt-3">Pay Now</button>
+      </form>
+    </div>
+    <div class="payment-success" id="payment-success" style="display: none;">
+      <i class="fas fa-check-circle" style="font-size: 3rem; color: #2e7d32; margin-bottom: 15px;"></i>
+      <h3>Payment Successful!</h3>
+      <p>Your order is being prepared. Thank you for choosing JoyThai Kitchen!</p>
+      <button class="btn btn-outline-primary mt-3" id="close-success-btn">Close</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
